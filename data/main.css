@@ -1,0 +1,100 @@
+html {
+	background : #222;
+	font-size : 16px; 
+}
+
+.title {
+	font-size : 3em;
+	color : #FFF !important;
+	font-family : Courier !important;
+}
+
+.heading {
+}
+
+.heading h1 {
+	background : #333;
+	padding : 1%;
+	border : 2px #a50000 solid;
+	border-radius : 0.1em;
+}
+
+.container-fluid {
+	background : #222;
+}
+
+
+.content-well {
+	background : #333 !important;
+	border : 2px solid !important;
+	border-color : #a50000 !important;
+	color : #CCC;
+	border-radius : 0.1em;
+}
+
+.content audio {
+	padding : 1%;
+	width : 85%;
+}
+
+.content blockquote {
+	font-family : Courier;
+	border-left : 5px solid #AAA !important;
+	text-align : left;
+	color : #FFF;
+	font-size : 1.5em;
+}
+
+.content caption {
+	font-family : Courier;
+	text-align : right;
+	color : #CCC;
+	font-size : 1.25em;
+}
+
+.content p a:link,
+.content p a:visited {
+	padding : 0.25em;
+	color : #CCC;
+	transition : color: 0.5s, background 0.5s,border 0.5s,border-radius 0.5s;
+}
+
+.content p a:hover {
+	background : #999;
+	color : #FFF;
+	border : 0.1em #777 solid;
+	border-radius : 0.1em;
+}
+.content input,
+.content textarea {
+	background-color : #222;
+	color : #FFF;
+	font-color : #FFF;
+	border : 2px solid white;
+	transition : background-color 0.5s,border 0.5s;
+}
+
+.content input:focus,
+.content textarea:focus {
+	background-color : #111;
+	outline : none !important;
+	border-color: #777;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+} 
+
+.footer {
+	color : #AAA;
+}
+
+.footer-div {
+	margin : 1em;
+}
+
+.author {
+	padding : 0.5em;
+	background :  white;
+	color : black;
+	font-style : italic;
+	font-weight: bold;
+}
